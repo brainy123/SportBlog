@@ -7,23 +7,43 @@
     <body>
         <div class="header">
           <div class="logo">
-             <img src="./images/logo.jpg">
+             <img src="./images/read1.jpg">
             </div>
             <div class="navs">
             <a href="index.html">HOME</a>
             <a href="index.html">BLOGS</a>
-            <a href="index.html">CONTACT US</a>
-            <a href="index.html">ABOUT US</a>
+<a href="#" class="signin" onclick="document.getElementById('smodal').style.display='block'">SIGN IN</a>
+            <a href="./pages/aboutus.html">ABOUT US</a>
             </div>
+        </div>
+        <div class="signinmodal"  id="smodal" style="display:none;">
+          <div class="signincard" id="signcardd">
+            <span class="close" id="closebutton" onclick="document.getElementById('smodal').style.display='none'">X</span>  
+            <h3>Sign In</h3>
+            <label>Username</label>
+            <input type="text" placeholder="Your Username" id="user"><br>
+            <label>Password</label>
+            <input type="password" placeholder="Your Password" id="pass"><br>
+            <div class="buttons">
+              <button class="buto1">ACCESS</button>
+            <button class="buto2">CANCEL</button>
+            </div>
+            <div class="options">
+               <label>Remember Me 
+              <input type="checkbox"> </label><br>
+            <a href="#">Forgot Password?</a>
+            </div>
+
+          </div>
         </div>
         <div class="container">          
             <div class="leftmenus"><h1>CATEGORIES</h1>
-                <a href="tenis.html">TENIS</a>
-                <a href="volleyball.html">VOLLEYBALL</a>
-                <a href="basketball.html">BASKETBALL</a>
-                <a href="handball.html">HANDBALL</a>
-                <a href="football.html">FOOTBALL</a>
-                <a href="rugby.html">RUGBY</a>
+                <a href="./pages/tenis.html">TENIS</a>
+                <a href="./pages/volleyball.html">VOLLEYBALL</a>
+                <a href="./pages/basketball.html">BASKETBALL</a>
+                <a href="./pages/handball.html">HANDBALL</a>
+                <a href="./pages/football.html">FOOTBALL</a>
+                <a href="./pages/rugby.html">RUGBY</a>
                 </div>
                 <div class="content">
     <div class="searchbutton">
@@ -33,55 +53,55 @@
     </div>
     <div class="cardcontainer">
        <div class="card-content">
-         <img src="./images/blog.jpg" >
+         <img src="./images/tenisss.jpg" >
          <div class="blogcontent">
              <h3>TENNIS</h3>
              <p>football is the best khfgsgsygfzhsjjzsfygsuefhuwfgygshzskfh</p>
-             <a href="">Read More</a>
+             <a href="./pages/tenis.html">Read More</a>
          </div>
        </div> 
        <div class="card-content">
-        <img src="./images/blog.jpg" >
+        <img src="./images/voole.jpg" >
         <div class="blogcontent">
             <h3>VOLLEYBALL</h3>
             <p>football is the best khfgsgsygfzhsjjzsfygsuefhuwfgygshzskfh</p>
-            <a href="">Read More</a>
+            <a href="./pages/volleyball.html">Read More</a>
         </div>
       </div>
       <div class="card-content">
-        <img src="./images/blog.jpg" >
+        <img src="./images/bakooooo.png" >
         <div class="blogcontent">
             <h3>BASKETBALL</h3>
             <p>football is the best khfgsgsygfzhsjjzsfygsuefhuwfgygshzskfh</p>
-            <a href="">Read More</a>
+            <a href="./pages/basketball.html">Read More</a>
         </div>
       </div>
       <div class="card-content">
-        <img src="./images/blog.jpg" >
+        <img src="./images/hand.jpg" >
         <div class="blogcontent">
             <h3>HANDBALL</h3>
             <p>football is the best khfgsgsygfzhsjjzsfygsuefhuwfgygshzskfh</p>
-            <a href="">Read More</a>
+            <a href="./pages/handball.html">Read More</a>
         </div>
       </div>
       <div class="card-content">
-        <img src="./images/blog.jpg" >
+        <img src="./images/futu.png" >
         <div class="blogcontent">
             <h3>FOOTBALL</h3>
             <p>football is the best khfgsgsygfzhsjjzsfygsuefhuwfgygshzskfh</p>
-            <a href="">Read More</a>
+            <a href="./pages/football.html">Read More</a>
         </div>
       </div>
       <div class="card-content">
-        <img src="./images/blog.jpg" >
+        <img src="./images/ruu.jpg" >
         <div class="blogcontent">
             <h3>RUGBY</h3>
             <p>football is the best khfgsgsygfzhsjjzsfygsuefhuwfgygshzskfh</p>
-            <a href="#" class="link">Read More</a>
+            <a href="./pages/rugby.html" class="link">Read More</a>
         </div>
       </div>
-    </div>
- </div>
+    </div>  
+ </div> 
         </div>
     </body>
 </html>
