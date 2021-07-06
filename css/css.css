@@ -1,5 +1,5 @@
 .header{
-    background-color: rgb(114, 57, 20);
+    background-color: rgb(196, 152, 123);
 }
 .logo img{
     width:8%;
@@ -16,7 +16,7 @@
     display: block;
     float: left;
     padding: 5px;
-    color: white;
+    color: black;
     text-decoration: none;
     margin-top: -60px;
     height: 3vh;
@@ -40,12 +40,13 @@
   text-align: center;
     padding: 15px;
     height: 120vh;
-    background-color: rgb(95, 59, 38);
+    background-color: darkgrey;
     padding: 15px;
+   
 }
 .leftmenus a{
     color: white;
-    padding: 15px;
+    padding: 20px;
     display: flex;
     font-size: 20px;
     text-decoration: none;
@@ -58,12 +59,10 @@
     height: 10vh;
     width: 60%;
     margin-top: 20px;
-    margin-left: 20%;
-   
-   
+    margin-left: 20%;  
 }
 .search{
-    width: 40%;
+    width: 30%;
     height:40px;
     border-radius: 30px;
     padding-left:25px;
@@ -91,11 +90,11 @@
     width:45%;
     display:flex;
     border:solid 1px black;
-    background-color: rgb(95, 59, 38);
+    background-color: gray;
     border-radius: 5px;
 }
 .card-content:hover{
-    background-color: darkcyan;
+    background-color:gray;
     box-shadow:5px 6px 7px  firebrick;
 }
 .card-content img{
@@ -105,10 +104,11 @@
 .blogcontent{
    padding-left: 10px;
    text-align: center;
+   color:white;
   
 }
 .blogcontent a{
-    color: white;
+    color: rgb(160, 13, 13);
     font-size: 20px;
     text-decoration: none;
 
